@@ -1,0 +1,33 @@
+.main-section{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff5f8;
+    overflow: hidden;
+    padding: 30px;
+    background-image: url('../../assests/productCurvyLines.png');
+    background-size: cover;
+    flex-wrap: wrap-reverse;
+}
+.box{
+    padding: 40px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.box img{
+margin: 30px auto
+}
+.box h3{
+margin: auto;
+}
+.box p{
+    margin-top: 30px ;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: emoji;
+    line-height: 30px;
+    padding:0px 30px;
+}

@@ -1,0 +1,29 @@
+.nav{
+    color: white;
+    background-color: rgb(26, 27, 25);
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    position:sticky;
+    top: 0;
+    z-index: 3;
+}
+.nav-title{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.nav-tag{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.nav-link{
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
